@@ -1,0 +1,12 @@
+C:\dev\PacFerramentas\Ferramentasuteis\bin\Debug\Ferramentasuteis.exe.config
+C:\dev\PacFerramentas\Ferramentasuteis\bin\Debug\Ferramentasuteis.exe
+C:\dev\PacFerramentas\Ferramentasuteis\bin\Debug\Ferramentasuteis.pdb
+C:\dev\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.csproj.AssemblyReference.cache
+C:\dev\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.Properties.Resources.resources
+C:\dev\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.csproj.GenerateResource.cache
+C:\dev\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.csproj.CoreCompileInputs.cache
+C:\dev\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.exe
+C:\dev\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.pdb
+C:\dev\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.exe.config
+C:\dev\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.FrmPrincipal.resources
+C:\dev\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.UI.FrmGeradorDeSenhas.resources
