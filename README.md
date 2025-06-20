@@ -1,5 +1,3 @@
-Perfeito\! Com essa descrição, posso te ajudar a criar um rascunho para o seu **README.md**.
-
 -----
 
 ## MyDevTools: Ferramentas Úteis para Desenvolvimento
