@@ -127,4 +127,10 @@
   <data name="iconeFerramenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconeFerramenta.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="qrcodeIcone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrcodeIcone.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qr_code_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qr_code 32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

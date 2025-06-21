@@ -33,6 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.6.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.6.0\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,15 +49,23 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enumeradores\EnumForcaSenha.cs" />
+    <Compile Include="Funcoes\GeradorCodigoQR.cs" />
     <Compile Include="Funcoes\GeradorDeSenhas.cs" />
     <Compile Include="UI\FrmGeradorDeSenhas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\FrmGeradorDeSenhas.Designer.cs">
       <DependentUpon>FrmGeradorDeSenhas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FrmGeradorQRCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmGeradorQRCode.Designer.cs">
+      <DependentUpon>FrmGeradorQRCode.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\FrmPrincipal.cs">
       <SubType>Form</SubType>
@@ -75,9 +88,13 @@
     <EmbeddedResource Include="UI\FrmGeradorDeSenhas.resx">
       <DependentUpon>FrmGeradorDeSenhas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmGeradorQRCode.resx">
+      <DependentUpon>FrmGeradorQRCode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -100,6 +117,11 @@
   <ItemGroup>
     <None Include="Resources\Copy.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\qr_code 32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcodeIcone.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

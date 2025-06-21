@@ -16,5 +16,11 @@ namespace Ferramentasuteis
             FrmGeradorDeSenhas senhas = new FrmGeradorDeSenhas();
             senhas.Show();
         }
+
+        private void btnGeradorDeQRCode_Click(object sender, EventArgs e)
+        {
+            FrmGeradorQRCode qrCode = new FrmGeradorQRCode();
+            qrCode.Show();
+        }
     }
 }

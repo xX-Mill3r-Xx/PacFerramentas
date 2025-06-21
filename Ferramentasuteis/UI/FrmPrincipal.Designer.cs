@@ -34,6 +34,7 @@
             this.tlpTitulo = new System.Windows.Forms.TableLayoutPanel();
             this.lbTitulo = new System.Windows.Forms.Label();
             this.pnPrincipal = new System.Windows.Forms.Panel();
+            this.btnGeradorDeQRCode = new System.Windows.Forms.Button();
             this.btnGeradorDeSenhas = new System.Windows.Forms.Button();
             this.tlpPrincipal.SuspendLayout();
             this.pnFundoTitulo.SuspendLayout();
@@ -97,12 +98,29 @@
             // pnPrincipal
             // 
             this.tlpPrincipal.SetColumnSpan(this.pnPrincipal, 2);
+            this.pnPrincipal.Controls.Add(this.btnGeradorDeQRCode);
             this.pnPrincipal.Controls.Add(this.btnGeradorDeSenhas);
             this.pnPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnPrincipal.Location = new System.Drawing.Point(3, 33);
             this.pnPrincipal.Name = "pnPrincipal";
             this.pnPrincipal.Size = new System.Drawing.Size(783, 483);
             this.pnPrincipal.TabIndex = 1;
+            // 
+            // btnGeradorDeQRCode
+            // 
+            this.btnGeradorDeQRCode.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGeradorDeQRCode.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnGeradorDeQRCode.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGeradorDeQRCode.Image = global::Ferramentasuteis.Properties.Resources.qr_code_32x32;
+            this.btnGeradorDeQRCode.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGeradorDeQRCode.Location = new System.Drawing.Point(9, 53);
+            this.btnGeradorDeQRCode.Name = "btnGeradorDeQRCode";
+            this.btnGeradorDeQRCode.Size = new System.Drawing.Size(169, 44);
+            this.btnGeradorDeQRCode.TabIndex = 1;
+            this.btnGeradorDeQRCode.Text = "Gerador de QR-Code";
+            this.btnGeradorDeQRCode.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGeradorDeQRCode.UseVisualStyleBackColor = true;
+            this.btnGeradorDeQRCode.Click += new System.EventHandler(this.btnGeradorDeQRCode_Click);
             // 
             // btnGeradorDeSenhas
             // 
@@ -112,7 +130,7 @@
             this.btnGeradorDeSenhas.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGeradorDeSenhas.Location = new System.Drawing.Point(9, 3);
             this.btnGeradorDeSenhas.Name = "btnGeradorDeSenhas";
-            this.btnGeradorDeSenhas.Size = new System.Drawing.Size(155, 44);
+            this.btnGeradorDeSenhas.Size = new System.Drawing.Size(169, 44);
             this.btnGeradorDeSenhas.TabIndex = 0;
             this.btnGeradorDeSenhas.Text = "Gerador de Senhas";
             this.btnGeradorDeSenhas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -150,6 +168,7 @@
         private System.Windows.Forms.Label lbTitulo;
         private System.Windows.Forms.Panel pnPrincipal;
         private System.Windows.Forms.Button btnGeradorDeSenhas;
+        private System.Windows.Forms.Button btnGeradorDeQRCode;
     }
 }
 

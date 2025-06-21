@@ -89,5 +89,25 @@ namespace Ferramentasuteis.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap qr_code_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("qr_code_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon qrcodeIcone {
+            get {
+                object obj = ResourceManager.GetObject("qrcodeIcone", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
     }
 }
