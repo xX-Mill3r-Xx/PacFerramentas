@@ -63,6 +63,16 @@ namespace Ferramentasuteis.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Conversor {
+            get {
+                object obj = ResourceManager.GetObject("Conversor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Copy {
             get {
                 object obj = ResourceManager.GetObject("Copy", resourceCulture);

@@ -34,6 +34,7 @@
             this.tlpTitulo = new System.Windows.Forms.TableLayoutPanel();
             this.lbTitulo = new System.Windows.Forms.Label();
             this.pnPrincipal = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnGeradorDeQRCode = new System.Windows.Forms.Button();
             this.btnGeradorDeSenhas = new System.Windows.Forms.Button();
             this.tlpPrincipal.SuspendLayout();
@@ -98,6 +99,7 @@
             // pnPrincipal
             // 
             this.tlpPrincipal.SetColumnSpan(this.pnPrincipal, 2);
+            this.pnPrincipal.Controls.Add(this.button1);
             this.pnPrincipal.Controls.Add(this.btnGeradorDeQRCode);
             this.pnPrincipal.Controls.Add(this.btnGeradorDeSenhas);
             this.pnPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -105,6 +107,22 @@
             this.pnPrincipal.Name = "pnPrincipal";
             this.pnPrincipal.Size = new System.Drawing.Size(783, 483);
             this.pnPrincipal.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = global::Ferramentasuteis.Properties.Resources.Conversor;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(9, 103);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(169, 44);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Conversor Polegadas";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnGeradorDeQRCode
             // 
@@ -169,6 +187,7 @@
         private System.Windows.Forms.Panel pnPrincipal;
         private System.Windows.Forms.Button btnGeradorDeSenhas;
         private System.Windows.Forms.Button btnGeradorDeQRCode;
+        private System.Windows.Forms.Button button1;
     }
 }
 

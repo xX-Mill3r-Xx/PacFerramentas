@@ -25,3 +25,4 @@ C:\dev\PacFerramentas\PacFerramentas\Ferramentasuteis\obj\Debug\FerramentasUteis
 C:\dev\PacFerramentas\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramen.4A9A131C.Up2Date
 C:\dev\PacFerramentas\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.exe
 C:\dev\PacFerramentas\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.pdb
+C:\dev\PacFerramentas\PacFerramentas\Ferramentasuteis\obj\Debug\Ferramentasuteis.UI.FrmConversorpolegadas.resources

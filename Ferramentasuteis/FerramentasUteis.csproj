@@ -55,6 +55,12 @@
     <Compile Include="Enumeradores\EnumForcaSenha.cs" />
     <Compile Include="Funcoes\GeradorCodigoQR.cs" />
     <Compile Include="Funcoes\GeradorDeSenhas.cs" />
+    <Compile Include="UI\FrmConversorpolegadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmConversorpolegadas.Designer.cs">
+      <DependentUpon>FrmConversorpolegadas.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\FrmGeradorDeSenhas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UI\FrmConversorpolegadas.resx">
+      <DependentUpon>FrmConversorpolegadas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmGeradorDeSenhas.resx">
       <DependentUpon>FrmGeradorDeSenhas.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +131,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\qrcodeIcone.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Conversor.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

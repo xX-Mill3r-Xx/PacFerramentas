@@ -22,5 +22,11 @@ namespace Ferramentasuteis
             FrmGeradorQRCode qrCode = new FrmGeradorQRCode();
             qrCode.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmConversorpolegadas conversorPolegadas = new FrmConversorpolegadas();
+            conversorPolegadas.Show();
+        }
     }
 }
