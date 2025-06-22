@@ -9,6 +9,7 @@ Este é um projeto em C# Windows Forms que visa reunir uma coleção de ferramen
 
 * **Gerador de Senhas:** Uma ferramenta simples e eficiente para gerar senhas fortes e aleatórias, com opções personalizáveis de comprimento e inclusão de caracteres (letras maiúsculas/minúsculas, números, símbolos).
 * **Gerador de QR Codes:** Crie QR Codes instantaneamente a partir de qualquer texto ou dado. Ideal para codificar URLs, informações de contato, ou qualquer string de texto de forma rápida.
+*  **Conversor de Polegadas:** App simples que converte um valor inserido em polegadas para centimetros. `Futuramente fará outras conversões`
 
 ### Como Usar
 
